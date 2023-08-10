@@ -1,0 +1,21 @@
+.price {
+}
+.price-container {
+  display: flex;
+}
+
+.price-list {
+}
+.price-item {
+}
+.price-name {
+  color: var(--blue-font, #0a224a);
+  font-size: 28px;
+  line-height: 1.5; /* 150% */
+  text-transform: uppercase;
+}
+.price-cost {
+  color: var(--blue-font, #0a224a);
+  font-weight: 700;
+  line-height: 1.5; /* 150% */
+}

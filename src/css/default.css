@@ -9,16 +9,30 @@
 }
 @font-face {
   font-family: 'Playfair Display';
+
   src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
 body {
   font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--blue-font);
+  background-color: var(--white);
 }
 .container {
   padding: 0 16px;
+  max-width: 375px;
 }
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 15px;
+    padding: 0 32px;
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 60px;
+    max-width: 1440px;
   }
 }

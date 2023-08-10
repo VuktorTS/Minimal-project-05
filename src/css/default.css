@@ -1,17 +1,26 @@
 @font-face {
+  font-display: 'swap';
   font-family: 'Roboto';
-  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 @font-face {
+  font-display: 'swap';
   font-family: 'Roboto';
-  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-style: normal;
   font-weight: 700;
+  src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
 }
 @font-face {
+  font-display: 'swap';
   font-family: 'Playfair Display';
-
-  src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf')
+    format('truetype');
 }
+
 body {
   font-family: 'Roboto';
   font-size: 16px;
@@ -26,13 +35,13 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 32px;
+    /* padding: 0 32px; */
     max-width: 768px;
   }
 }
 @media screen and (min-width: 1440px) {
   .container {
-    padding: 0 60px;
+    /* padding: 0 60px; */
     max-width: 1440px;
   }
 }

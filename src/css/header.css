@@ -1,0 +1,127 @@
+/* :root {
+  --blue-font: #0a224a;
+  --dark-grey: #b6b6b6;
+  --grey: #d9d9d9;
+  --light-blue: #f7faff;
+  --white: #ffffff;
+} */
+
+.header-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-blue);
+}
+.header-logo-link {
+  padding: 36px 0;
+  display: inline-flex;
+}
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+}
+.menu-container.is-open {
+  transform: translateX(0);
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 88px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 80px 0 40px 40px;
+  background-color: var(--white);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  color: var(--blue-font);
+  width: 24px;
+  border: 1px solid var(red);
+  height: 24px;
+}
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+.menu {
+  display: none;
+}
+/* .mobile-menu-link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: auto;
+} */
+/* .mobile-menu-link {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; 
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+} */
+/* .mobile-menu-adress-list {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  margin-bottom: 48px;
+} */
+/* .mobile-menu-adress-link.tel-accent {
+  color: var(--iris);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+} */
+/* .mobile-menu-adress-link.mail {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+} */
+/* .mobile-menu-social-list {
+  display: flex;
+  gap: 9%;
+} */
+/* .mobile-menu-social-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--iris);
+  fill: var(--cloud);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+} */
+/* .mobile-menu-activ-link {
+  color: var(--ocean);
+} */

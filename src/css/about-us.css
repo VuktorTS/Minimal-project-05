@@ -1,11 +1,9 @@
-.aboutus {
+.about-us-container{
+    background-color: bisque;
     padding-top: 64px;
     padding-bottom: 64px;
 }
-.container {
-}
-.about-us-container {
-}
+
 .aboutus-title {
     color: var(--blue-font);
 font-size: 16px;
@@ -44,7 +42,6 @@ position: relative;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-bottom: 64px;
 }
 
 .aboutus-item {
@@ -64,5 +61,44 @@ position: relative;
         font-size: 16px;
         font-weight: 400;
 }
-.aboutus-img {
+
+.img-container{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+
+ .about-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 704px;
+    height: 499px;
+    padding: 36px 64px;
+    margin-bottom: 30px;
+
+ }
+
+ .aboutus-subtitle{
+font-size: 32px;
+ }
+    
+.aboutus-descr{
+    font-size: 18px;
+}
+
+.aboutus-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+.img-container{
+ max-width: 704px;
+    
+}
+
 }

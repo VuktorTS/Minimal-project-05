@@ -63,19 +63,42 @@ position: relative;
 }
 
 .img-container{
-    max-width: 375px;
+    width: 375px;
     margin: 0 auto;
 }
 
 @media screen and (min-width:768px) {
 
-   .about-us-container{
-   width: 704px;
-   height: 499px;
-   margin: 0 auto;
-   padding: 36px 64px;
+ .about-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 704px;
+    height: 499px;
+    padding: 36px 64px;
+    margin-bottom: 30px;
 
-   }
+ }
 
+ .aboutus-subtitle{
+font-size: 32px;
+ }
     
+.aboutus-descr{
+    font-size: 18px;
+}
+
+.aboutus-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+.img-container{
+ width: 704px;
+    
+}
+
 }

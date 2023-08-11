@@ -17,6 +17,23 @@
 .header-logo-link {
   padding: 36px 0;
   display: inline-flex;
+  fill: var(--blue-font);
+}
+.hamburger {
+  min-height: 40px;
+  min-width: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.hamburger .hamburger-box .hamburger-inner,
+.hamburger .hamburger-box .hamburger-inner::before,
+.hamburger .hamburger-box .hamburger-inner::after {
+  background-color: var(--blue-font);
+}
+.hamburger .hamburger.is-active .hamburger-inner::before,
+.hamburger .hamburger.is-active .hamburger-inner::after {
+  background-color: var(--blue-font);
 }
 
 .menu-container.is-open {

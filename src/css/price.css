@@ -19,7 +19,8 @@
   content: '';
   left: 0;
   top: 0;
-  width: 343px;
+  width: 100%;
+  max-width: 343px;
   height: 1px;
   background-color: var(--blue-font);
 }
@@ -29,7 +30,8 @@
   content: '';
   left: 0;
   bottom: 0;
-  width: 343px;
+  width: 100%;
+  max-width: 343px;
   height: 1px;
   background-color: var(--blue-font);
 }
@@ -40,4 +42,43 @@
 }
 .price-cost {
   font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .price {
+    padding: 100px 0;
+  }
+  .container {
+    padding: 0 32px;
+  }
+
+  .price-item::before {
+    max-width: 704px;
+  }
+
+  .price-item:last-child::after {
+    max-width: 704px;
+  }
+  .price-name {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+
+  .price-cost {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 172px;
+  }
+
+  .price-item::before {
+    max-width: 1096px;
+  }
+
+  .price-item:last-child::after {
+    max-width: 1096px;
+  }
 }

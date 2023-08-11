@@ -1,4 +1,5 @@
-.aboutus {
+.about-us-container{
+    background-color: bisque;
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -44,7 +45,6 @@ position: relative;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-bottom: 64px;
 }
 
 .aboutus-item {
@@ -64,5 +64,8 @@ position: relative;
         font-size: 16px;
         font-weight: 400;
 }
-.aboutus-img {
+
+.img-container{
+    max-width: 375px;
+    margin: 0 auto;
 }

@@ -82,7 +82,6 @@
 }
 .header-menu-list {
   display: flex;
-  flex-direction: column;
   gap: 30px;
   text-align: center;
 }
@@ -138,5 +137,14 @@
 /* .mobile-menu-activ-link {
   color: var(--ocean);
 } */
-@media screen {
+@media screen and (min-width: 1440px) {
+  .menu {
+    display: block;
+  }
+  .hamburger {
+    display: none;
+  }
+  .header-menu-item-link {
+    font-size: 18px;
+  }
 }

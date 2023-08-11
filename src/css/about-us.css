@@ -3,10 +3,7 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
-.container {
-}
-.about-us-container {
-}
+
 .aboutus-title {
     color: var(--blue-font);
 font-size: 16px;
@@ -68,4 +65,16 @@ position: relative;
 .img-container{
     max-width: 375px;
     margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+
+   .about-us-container{
+   width: 704px;
+   height: 499px;
+   padding: 36px 64px;
+
+   }
+
+    
 }

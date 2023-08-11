@@ -63,7 +63,7 @@ position: relative;
 }
 
 .img-container{
-    width: 375px;
+    max-width: 375px;
     margin: 0 auto;
 }
 
@@ -97,7 +97,7 @@ font-size: 32px;
 }
 
 .img-container{
- width: 704px;
+ max-width: 704px;
     
 }
 

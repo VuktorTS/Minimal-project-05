@@ -14,11 +14,6 @@
 .price {
   padding: 64px 0;
 }
-.price-container {
-}
-
-.price-list {
-}
 .price-item {
   position: relative;
   display: flex;
@@ -61,7 +56,7 @@
   .price {
     padding: 100px 0;
   }
-  .container {
+  .price-container {
     padding: 0 32px;
   }
 
@@ -83,7 +78,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
+  .price-container {
     padding: 0 172px;
   }
 

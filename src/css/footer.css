@@ -1,0 +1,85 @@
+.footer-section {
+  padding: 36px 16px 16px 16px;
+  background: var(--blue-font, #0a224a);
+}
+.footer-container {
+}
+.logo-soc-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.logo-icon {
+  width: 100px;
+  height: 16px;
+  fill: var(--white);
+}
+.footer-nav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 36px;
+}
+.nav-list {
+}
+.nav-item {
+  color: var(--white);
+}
+.address {
+}
+.address-list {
+  color: var(--white);
+  font-style: normal;
+  letter-spacing: 0.01em;
+  margin-bottom: 35px;
+}
+.tel-list {
+  color: var(--white);
+  font-style: normal;
+  letter-spacing: 0.01em;
+  margin-bottom: 64px;
+}
+.addr-item {
+}
+.addr-link {
+}
+.link {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+.soc-list {
+  display: flex;
+  gap: 16px;
+}
+.soc-item {
+  gap: 16px;
+}
+.soc-icon {
+  width: 28px;
+  height: 28px;
+  fill: var(--white);
+}
+.p-agree {
+  opacity: 0.6;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 343px;
+  color: var(--white);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+.agree-link {
+  text-decoration-line: underline;
+}

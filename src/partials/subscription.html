@@ -1,0 +1,74 @@
+<section class="subscription-section" id="subscription">
+  <div class="container subscription-container">
+    <div class="subscription-description">
+      <h2 class="subscription-title">Newsletter</h2>
+      <p class="subscription-text">
+        Every week we will send you new designs and information about sales.
+      </p>
+      <form class="subscription-form">
+        <div class="subscription-input-wrapper">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="subscription-input"
+            placeholder="Name"
+            minlength="2"
+            maxlength="16"
+            required
+          />
+          <svg width="24" height="24" class="error-icon">
+            <use href="./img/icons.svg#icon-error-outline"></use>
+          </svg>
+        </div>
+        <div class="subscription-input-wrapper">
+          <input
+            type="email"
+            name="useremail"
+            id="useremail"
+            class="subscription-input"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <svg width="24" height="24" class="error-icon">
+            <use href="./img/icons.svg#icon-error-outline"></use>
+          </svg>
+        </div>
+        <div class="checkbox-field">
+          <input
+            type="checkbox"
+            name="user-agreement"
+            id="user-agreement"
+            class="subscription-checkbox visually-hidden"
+            value="true"
+          />
+          <label
+            for="user-agreement"
+            class="subscription-checkbox-label checkbox-text"
+            ><span class="custom-checkbox"
+              ><svg class="checkbox-icon" width="13" height="13">
+                <use href="./img/icons.svg#icon-check"></use></svg></span
+            >Agree to subscribe to the newsletter</label
+          >
+        </div>
+        <button type="button" class="subscription-button">Send</button>
+      </form>
+    </div>
+    <picture class="subscription-image">
+      <source
+        media="(max-width:767px)"
+        srcset="./img/sofa-sizer-mob.jpg 1x, ./img/sofa-sizer-mob@2.jpg 2x"
+      />
+      <source
+        media="(min-width: 768px) and (max-width:1439px)"
+        srcset="./img/sofa-sizer-tab.jpg 1x, ./img/sofa-sizer-tab@2.jpg 2x"
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcset="./img/sofa-sizer.jpg 1x, ./img/sofa-sizer@2.jpg 2x"
+      />
+      <img src="./img/sofa-sizer-tab.jpg" alt="wooden cabinet" width="704" />
+    </picture>
+  </div>
+</section>

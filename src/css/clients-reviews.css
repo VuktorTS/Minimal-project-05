@@ -1,7 +1,18 @@
 
+.reviews-container{
+    background: var(--light-blue, #F7FAFF);
+    padding: 36px 16px;
+}
 
-
-.reviews-title {}
+.reviews-title {
+    color: var(--blue-font, #0A224A);
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 30px;
+}
 
 .reviews-clients-list {}
 

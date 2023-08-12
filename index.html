@@ -13,8 +13,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-team-05/assets/index-bafc0420.js"></script>
-    <link rel="stylesheet" href="/project-team-05/assets/index-401c6bd1.css">
+    <script type="module" crossorigin src="/project-team-05/assets/index-200c2111.js"></script>
+    <link rel="stylesheet" href="/project-team-05/assets/index-9916f341.css">
   </head>
   <body>
     <header class="header-section">
@@ -448,7 +448,81 @@
   </ul>
 </section>
 
-      
+      <section class="subscription-section" id="subscription">
+  <div class="container subscription-container">
+    <div class="subscription-description">
+      <h2 class="subscription-title">Newsletter</h2>
+      <p class="subscription-text">
+        Every week we will send you new designs and information about sales.
+      </p>
+      <form class="subscription-form">
+        <div class="subscription-input-wrapper">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="subscription-input"
+            placeholder="Name"
+            minlength="2"
+            maxlength="16"
+            required
+          />
+          <svg width="24" height="24" class="error-icon">
+            <use href="/project-team-05/assets/icons-5b052370.svg#icon-error-outline"></use>
+          </svg>
+        </div>
+        <div class="subscription-input-wrapper">
+          <input
+            type="email"
+            name="useremail"
+            id="useremail"
+            class="subscription-input"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <svg width="24" height="24" class="error-icon">
+            <use href="/project-team-05/assets/icons-5b052370.svg#icon-error-outline"></use>
+          </svg>
+        </div>
+        <div class="checkbox-field">
+          <input
+            type="checkbox"
+            name="user-agreement"
+            id="user-agreement"
+            class="subscription-checkbox visually-hidden"
+            value="true"
+          />
+          <label
+            for="user-agreement"
+            class="subscription-checkbox-label checkbox-text"
+            ><span class="custom-checkbox"
+              ><svg class="checkbox-icon" width="13" height="13">
+                <use href="/project-team-05/assets/icons-5b052370.svg#icon-check"></use></svg></span
+            >Agree to subscribe to the newsletter</label
+          >
+        </div>
+        <button type="button" class="subscription-button">Send</button>
+      </form>
+    </div>
+    <picture class="subscription-image">
+      <source
+        media="(max-width:767px)"
+        srcset="/project-team-05/assets/sofa-sizer-mob-ccc2e86c.jpg 1x, /project-team-05/assets/sofa-sizer-mob@2-ae787ae8.jpg 2x"
+      />
+      <source
+        media="(min-width: 768px) and (max-width:1439px)"
+        srcset="/project-team-05/assets/sofa-sizer-tab-ad515d2e.jpg 1x, /project-team-05/assets/sofa-sizer-tab@2-3453ece5.jpg 2x"
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcset="/project-team-05/assets/sofa-sizer-d20f06d0.jpg 1x, /project-team-05/assets/sofa-sizer@2-9cbd96ce.jpg 2x"
+      />
+      <img src="/project-team-05/assets/sofa-sizer-tab-ad515d2e.jpg" alt="wooden cabinet" width="704" />
+    </picture>
+  </div>
+</section>
+
     </main>
     
 

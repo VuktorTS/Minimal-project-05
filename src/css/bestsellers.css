@@ -75,3 +75,37 @@
     font-size: 18px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .bestsellers-section .container {
+    padding: 0 60px;
+    max-width: 1096px;
+  }
+  .bestsellers-gallery {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .bestsellers-gallery-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .bestsellers-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+  }
+  .bestsellers-list-item {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+  .bestsellers-title {
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 1.41;
+  }
+  .bestsellers-subtitle {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .bestsellers-text {
+    font-size: 18px;
+  }
+}

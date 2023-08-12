@@ -4,6 +4,10 @@
 }
 .footer-container {
 }
+
+.footer-nav-tab.footer-nav {
+  display: none;
+}
 .logo-soc-container {
   display: flex;
   justify-content: space-between;
@@ -82,4 +86,17 @@
 }
 .agree-link {
   text-decoration-line: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-icon {
+    width: 127px;
+  }
+  .footer-nav-tab.footer-nav {
+    display: block;
+  }
+
+  .footer-nav {
+    display: none;
+  }
 }

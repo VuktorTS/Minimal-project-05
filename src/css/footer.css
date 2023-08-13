@@ -3,8 +3,6 @@
   background: var(--blue-font, #0a224a);
   width: 100%;
 }
-.footer-container {
-}
 
 .logo-soc-container {
   display: flex;
@@ -16,62 +14,62 @@
   display: flex;
   flex-direction: column;
 }
+.logo-link {
+  margin: 6px 0 42px;
+}
 
 .logo-icon {
+  display: block;
+  fill: var(--white);
   width: 100px;
   height: 16px;
-  fill: var(--white);
 }
-.footer-nav {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 36px;
-}
+
 .nav-list {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 .nav-item {
   color: var(--white);
 }
-.address {
-}
-.address-list {
-  color: var(--white);
-  font-style: normal;
-  letter-spacing: 0.01em;
-  margin-bottom: 35px;
-}
-.tel-list {
-  color: var(--white);
-  font-style: normal;
-  letter-spacing: 0.01em;
-  margin-bottom: 64px;
-}
-.addr-item {
-}
-.addr-link {
-}
-.link {
-}
-
 .soc-list {
   display: flex;
   gap: 16px;
 }
-.soc-item {
-  gap: 16px;
-}
+
 .soc-icon {
   width: 28px;
   height: 28px;
   fill: var(--white);
 }
+
+.contscts {
+  margin: 36px 0 64px;
+}
+.address-list {
+  color: var(--white);
+  font-style: normal;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+
+.addr-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.tel-list {
+  color: var(--white);
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+
+.footer-mail {
+  display: none;
+}
+
 .p-agree {
   opacity: 0.6;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 343px;
   color: var(--white);
   text-align: center;
   font-size: 12px;
@@ -83,11 +81,46 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer-section {
+    padding: 36px 32px;
+  }
+
+  .logo-link {
+    margin: 12px 0 0;
+  }
+
   .logo-icon {
     width: 127px;
   }
 
   .logo-nav {
     flex-direction: row;
+    flex: 1;
+  }
+
+  .footer-nav {
+    margin: 8px 0 0 249px;
+  }
+
+  .soc-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-item {
+    font-size: 18px;
+  }
+
+  .contscts {
+    order: -1;
+    margin: -116px 0 0;
+  }
+
+  .footer-mail {
+    color: white;
+    font-style: normal;
+    display: flex;
+    margin: 24px 0 64px;
+    font-size: 19px;
   }
 }

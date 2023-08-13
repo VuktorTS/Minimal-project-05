@@ -4,8 +4,7 @@
 
 .aboutus-content{
     background: var(--light-blue);
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 64px 16px;
 }
 
 .aboutus-title {

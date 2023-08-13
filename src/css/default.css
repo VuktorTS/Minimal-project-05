@@ -29,11 +29,6 @@ body {
   color: var(--blue-font);
   background-color: var(--white);
 }
-.container {
-  padding: 0 16px;
-  max-width: 375px;
-  margin: 0 auto;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -46,15 +41,19 @@ body {
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
+.container {
+  padding: 0 16px;
+  max-width: 375px;
+  margin: 0 auto;
+}
 @media screen and (min-width: 768px) {
   .container {
-    /* padding: 0 32px; */
-    max-width: 768px;
+    padding: 0 15px;
+    max-width: 734px;
   }
 }
 @media screen and (min-width: 1440px) {
   .container {
-    /* padding: 0 60px; */
-    max-width: 1440px;
+    max-width: 1350px;
   }
 }

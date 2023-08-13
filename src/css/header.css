@@ -80,9 +80,10 @@
 .menu {
   display: none;
 }
-.header-menu-list {
+.header-mob-menu-list {
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+  gap: 17px;
   text-align: center;
 }
 /* .mobile-menu-link-list {
@@ -143,6 +144,12 @@
   }
   .hamburger {
     display: none;
+  }
+  .header-menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
   }
   .header-menu-item-link {
     font-size: 18px;

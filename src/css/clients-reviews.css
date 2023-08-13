@@ -21,6 +21,7 @@ background: var(--light-blue, #f7faff);
 
 .reviews-subcontainer {
   display: flex;
+  align-items: center;
   margin-bottom: 24px;
   gap: 14px;
 }
@@ -34,7 +35,6 @@ background: var(--light-blue, #f7faff);
   font-weight: 700;
   line-height: 1.78;
   text-transform: uppercase;
-  padding-bottom: 2px;
 }
 
 .reviews-subcontainer-text {
@@ -90,7 +90,6 @@ background: var(--light-blue, #f7faff);
 
 .reviews-subcontainer-title{
   font-size: 20px;
-  gap: 4px;
   line-height: 2.25;
 }
 

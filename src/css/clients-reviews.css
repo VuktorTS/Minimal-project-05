@@ -104,3 +104,22 @@ background: var(--light-blue, #f7faff);
 }
 
 }
+
+
+
+@media screen and (min-width: 1440px){
+  .container{
+      max-width: 1440px;
+    }
+
+        .reviews{
+          padding: 60px 45px;
+        }
+
+                .reviews-clients-list{
+                  gap: 23px;
+                }
+                                .reviews-subcontainer{
+                                  margin-bottom: 16px;
+                                }
+}

@@ -80,8 +80,6 @@ position: relative;
  }
 
  .aboutus-content{
-    width: 704px;
-        height: 499px;
         padding: 36px 64px;
         margin-bottom: 30px;
  }
@@ -131,6 +129,7 @@ font-size: 32px;
 }
 
 .aboutus-subtitle{
+    width: 622px;
 font-size: 32px;
 line-height: 1.41;
 }

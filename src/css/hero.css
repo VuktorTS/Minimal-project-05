@@ -1,0 +1,38 @@
+
+.hero-container {
+    padding-top: 140px;
+    padding-bottom: 313px;
+    max-width: 375px;
+    background: url(../img/sofa-by-patricia-urquiola-mob.jpg), lightgray -8.172px -122.895px / 181.99% 146.01% no-repeat;
+        background-repeat: no-repeat;
+}
+
+.hero-title {
+    max-width: 285px;
+    color: var(--blue-font, #0A224A);
+        font-family: Playfair Display;
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+}
+
+.hero-descr {
+    color: var(--blue-font, #0A224A);
+        font-size: 16px;   
+        font-weight: 400;
+        margin-bottom: 28px;
+}
+
+.hero-subscribe-button {
+    width: 224px;
+    padding: 12px 64px;
+    color: var(--white, #FFF);
+        font-size: 16px;
+        font-weight: 400;
+        background: var(--blue-font, #0A224A);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+}

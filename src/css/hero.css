@@ -8,6 +8,7 @@
 }
 
 .hero-title {
+    max-width: 285px;
     color: var(--blue-font, #0A224A);
         font-family: Playfair Display;
         font-size: 28px;

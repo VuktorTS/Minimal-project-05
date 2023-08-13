@@ -1,48 +1,64 @@
-<footer class="footer-section" id="footer">
+<footer class="footer-section">
   <div class="footer-container">
     <div class="logo-soc-container">
-      <a href="../index.html">
-        <svg class="logo-icon">
-          <use href="./img/icons.svg#icon-logo"></use>
-        </svg>
-      </a>
-      <nav class="footer-nav-tab footer-nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a href="#">Our products</a>
-          </li>
-          <li class="nav-item">
-            <a href="#">Prices</a>
-          </li>
-          <li class="nav-item">
-            <a href="#">Bestsellers</a>
-          </li>
-          <li class="nav-item">
-            <a href="#">Reviews</a>
-          </li>
-        </ul>
-      </nav>
-
+      <div class="logo-nav">
+        <a href="../index.html" class="logo-link">
+          <svg class="logo-icon">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <nav class="footer-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Our products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Bestsellers</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <ul class="soc-list">
         <li class="soc-item">
-          <a href="https://www.facebook.com/" target="_blank">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            aria-label="facebook"
+            rel="noopener norefferer"
+          >
             <svg class="soc-icon">
               <use href="./img/icons.svg#icon-facebook-logo"></use>
             </svg>
           </a>
         </li>
         <li class="soc-item">
-          <a href="https://www.instagram.com/" target="_blank">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            aria-label="instagram"
+            rel="noopener norefferer"
+          >
             <svg class="soc-icon">
               <use href="./img/icons.svg#icon-instagram-logo"></use>
             </svg>
           </a>
         </li>
         <li class="soc-item">
-          <a href="https://www.youtube.com/" target="_blank">
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            aria-label="youtube"
+            rel="noopener norefferer"
+          >
             <svg class="soc-icon">
               <use href="./img/icons.svg#icon-youtube-logo"></use>
             </svg>
@@ -50,57 +66,40 @@
         </li>
       </ul>
     </div>
-    <nav class="footer-nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="#">About us</a>
-        </li>
-        <li class="nav-item">
-          <a href="#">Our products</a>
-        </li>
-        <li class="nav-item">
-          <a href="#">Prices</a>
-        </li>
-        <li class="nav-item">
-          <a href="#">Bestsellers</a>
-        </li>
-        <li class="nav-item">
-          <a href="#">Reviews</a>
-        </li>
-      </ul>
-    </nav>
-    <address class="address">
-      <ul class="address-list">
-        <li class="addr-item">
-          <a
-            class="addr-link link"
-            href="https://www.google.com/maps/search/Obolonsky+Prospect,+14,+Kyiv/@50.5066575,30.4819038,14z/data=!3m1!4b1?entry=ttu"
-            target="_blank"
-            >Obolonsky Prospect, 14, Kyiv</a
-          >
-        </li>
-        <li class="addr-item">
-          <p>Daily 10:00-21:00</p>
-        </li>
-      </ul>
-      <ul class="tel-list">
-        <li class="addr-item">
-          <a href="tel:+380669384758">+380669384758</a>
-        </li>
-        <li class="addr-item">
-          <a href="tel:+380679384758">+380679384758</a>
-        </li>
-        <li class="addr-item visually-hidden">
-          <a href="mailto:minimal.furniture@gmail.com"
-            >minimal.furniture@gmail.com</a
-          >
-        </li>
-      </ul>
-    </address>
+    <div>
+      <address class="address">
+        <ul class="address-list">
+          <li class="addr-item">
+            <a
+              class="addr-link link"
+              href="https://www.google.com/maps/search/Obolonsky+Prospect,+14,+Kyiv/@50.5066575,30.4819038,14z/data=!3m1!4b1?entry=ttu"
+              aria-label="google maps"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Obolonsky Prospect, 14, Kyiv</a
+            >
+          </li>
+          <li class="addr-item worktime">
+            <p>Daily 10:00-21:00</p>
+          </li>
+        </ul>
+        <ul class="tel-list">
+          <li class="addr-item">
+            <a href="tel:+380669384758">+380669384758</a>
+          </li>
+          <li class="addr-item">
+            <a href="tel:+380679384758">+380679384758</a>
+          </li>
+        </ul>
+        <a class="footer-mail" href="mailto:minimal.furniture@gmail.com"
+          >minimal.furniture@gmail.com</a
+        >
+      </address>
+    </div>
+    <p class="p-agree">
+      By using this website, you agree to the
+      <a href="#" class="agree-link">Terms of Service</a> and
+      <a href="#" class="agree-link">Privacy Policy</a>
+    </p>
   </div>
-  <p class="p-agree">
-    By using this website, you agree to the
-    <a href="#" class="agree-link">Terms of Service</a> and
-    <a href="#" class="agree-link">Privacy Policy</a>
-  </p>
 </footer>

@@ -53,13 +53,6 @@ background: var(--light-blue, #f7faff);
   line-height: 1.43;
 }
 
-/* @media screen and (min-width: 375px) {
-    .container {
-        max-width: 375px;
-    }
-
-} */
-
 @media (max-width: 767px) {
   .reviews-tab-version {
     display: none;
@@ -77,9 +70,9 @@ background: var(--light-blue, #f7faff);
 
 
 @media screen and (min-width: 768px){
-  .container{
+  /*.container{
     max-width: 768px;
-  }
+  }*/
 
 .reviews-title {
   font-size: 32px;
@@ -89,7 +82,6 @@ background: var(--light-blue, #f7faff);
 .reviews-clients-list {
   display: flex;
   gap: 16px;
- 
 }
 
 .reviews-subcontainer{

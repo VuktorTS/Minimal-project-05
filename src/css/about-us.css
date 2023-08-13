@@ -3,7 +3,7 @@
 }
 
 .aboutus-content{
-    background-color: bisque;
+    background: var(--light-blue);
     padding-top: 64px;
     padding-bottom: 64px;
 }

@@ -40,4 +40,8 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .products-list .products-item:nth-child(3),
+  .products-list .products-item:nth-child(4) {
+    display: block;
+  }
 }

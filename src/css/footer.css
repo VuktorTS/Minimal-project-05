@@ -107,7 +107,7 @@
   }
 
   .logo-icon {
-    /* width: 127px; */
+    width: 127px;
   }
 
   .footer-nav {
@@ -189,10 +189,6 @@
     flex-direction: column;
   }
 
-  .contacts .tel-list {
-    margin: 0 82px 0 87px;
-  }
-
   .footer-mail {
     margin: 0;
   }
@@ -201,5 +197,15 @@
   }
   .soc-list {
     gap: 30px;
+  }
+
+  .address {
+    display: flex;
+  }
+  .contscts .tel-list {
+    margin-top: 0;
+  }
+  .tel-list {
+    margin: 0 82px 0 87px;
   }
 }

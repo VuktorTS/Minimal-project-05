@@ -45,8 +45,8 @@
  (min-resolution:192dpi),
  (min-resolution:2dppx){
 .hero-container{
-    background: url(../img/sofa-by-patricia-urquiola-mob@2.jpg), lightgray -8.172px -122.895px / 181.99% 146.01% no-repeat;
-    background-repeat: no-repeat;
+    background: url(../img/sofa-by-patricia-urquiola-mob@2.jpg);
+    background-size: cover;
 }
  }
 
@@ -148,10 +148,10 @@ height: 530px;
 
 
 .hero-img{
-    display: unset;
+    display: block;
     width: 312px;
     height: 337px;
-    margin-bottom: 45px;
+    margin-bottom: 59px;
 }
 
 }

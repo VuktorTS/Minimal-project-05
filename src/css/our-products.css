@@ -17,6 +17,20 @@
   margin-bottom: 16px;
 }
 @media screen and (min-width: 768px) {
+  .products-section {
+    padding-bottom: 100px;
+  }
+  .products-title {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+  }
+  .products-item-img-container {
+    margin-bottom: 15px;
+  }
+  .products-item-text {
+    font-size: 18px;
+  }
   .products-list .products-item:nth-child(2) {
     display: block;
   }
@@ -24,4 +38,6 @@
     display: flex;
     gap: 16px;
   }
+}
+@media screen and (min-width: 1440px) {
 }

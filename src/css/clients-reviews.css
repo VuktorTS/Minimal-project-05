@@ -124,6 +124,7 @@
 
   .reviews-clients-item {
     width: calc((100% - 23px * 2) / 3);
+    padding: 32px;
   }
 
   .reviews-subcontainer {

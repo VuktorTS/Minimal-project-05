@@ -7,8 +7,7 @@
   flex-direction: column;
   gap: 30px;
 }
-/* .subscription-description {
-} */
+
 .subscription-title {
   margin-bottom: 20px;
   font-size: 28px;
@@ -19,8 +18,6 @@
 .subscription-text {
   margin-bottom: 30px;
 }
-/* .subscription-form {
-} */
 .subscription-input-wrapper {
   position: relative;
 }
@@ -54,7 +51,6 @@
 .subscription-input:invalid:not(:placeholder-shown) + .error-icon {
   fill: #e74a3b;
 }
-
 .checkbox-text {
   align-items: center;
   color: #7a7a7a;
@@ -104,4 +100,30 @@
 .subscription-button:focus {
   border: none;
   background-color: #061835;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .subscription-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .subscription-container {
+    gap: 64px;
+  }
+  .subscription-title {
+    font-size: 32px;
+    line-height: 1.41;
+    text-align-last: left;
+    margin-bottom: 30px;
+  }
+  .subscription-input {
+    max-width: 536px;
+    margin-bottom: 20px;
+  }
+  .subscription-text {
+    max-width: 536px;
+    font-size: 18px;
+  }
+  .subscription-button {
+    margin-top: 30px;
+  }
 }

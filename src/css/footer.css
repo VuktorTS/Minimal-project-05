@@ -1,79 +1,110 @@
 .footer-section {
   padding: 36px 16px 16px 16px;
-  background: var(--blue-font, #0a224a);
+  background: var(--blue-font);
+  width: 100%;
 }
-.footer-container {
+
+.link {
+  transition: color 300ms ease-in-out 300ms;
 }
+
+.link:hover,
+.link:focus {
+  color: var(--dark-grey);
+}
+
 .logo-soc-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 36px;
+  flex-wrap: wrap;
 }
+
+.logo-nav {
+  display: flex;
+  flex-direction: column;
+}
+.logo-link {
+  margin: 6px 0 42px;
+}
+
 .logo-icon {
+  display: block;
+  fill: var(--white);
   width: 100px;
   height: 16px;
-  fill: var(--white);
 }
-.footer-nav {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 36px;
+
+.logo-icon:hover,
+.logo-icon:focus {
+  fill: var(--dark-grey);
+  transition: color 300ms ease-in-out 300ms;
 }
+
 .nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 .nav-item {
   color: var(--white);
-}
-.address {
-}
-.address-list {
-  color: var(--white);
-  font-style: normal;
-  letter-spacing: 0.01em;
-  margin-bottom: 35px;
-}
-.tel-list {
-  color: var(--white);
-  font-style: normal;
-  letter-spacing: 0.01em;
-  margin-bottom: 64px;
-}
-.addr-item {
-}
-.addr-link {
-}
-.link {
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
 }
 .soc-list {
   display: flex;
   gap: 16px;
 }
-.soc-item {
-  gap: 16px;
-}
+
 .soc-icon {
+  display: block;
   width: 28px;
   height: 28px;
   fill: var(--white);
 }
+
+.soc-icon:hover,
+.soc-icon:focus {
+  fill: var(--dark-grey);
+  transition: color 300ms ease-in-out 300ms;
+}
+
+.contscts {
+  margin: 36px 0 64px;
+}
+.address-list {
+  color: var(--white);
+  font-style: normal;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+
+.contacts .tel-list {
+  margin-top: 35px;
+}
+
+.addr-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contact-link {
+  color: var(--white);
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+
+.footer-mail {
+  display: none;
+  color: var(--white);
+  letter-spacing: 0.01em;
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--dark-grey);
+  transition: color 300ms ease-in-out 300ms;
+}
+
 .p-agree {
   opacity: 0.6;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 343px;
   color: var(--white);
   text-align: center;
   font-size: 12px;
@@ -82,4 +113,128 @@
 }
 .agree-link {
   text-decoration-line: underline;
+}
+
+.agree-link:hover,
+.agree-link:focus {
+  color: var(--dark-grey);
+  transition: color 300ms ease-in-out 300ms;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-section {
+    padding: 36px 32px;
+  }
+
+  .logo-nav {
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .logo-link {
+    margin: 12px 0 0;
+  }
+
+  .logo-icon {
+    width: 127px;
+  }
+
+  .footer-nav {
+    margin: 8px 0 0 249px;
+  }
+
+  .nav-list {
+    gap: 16px;
+  }
+
+  .nav-item {
+    font-size: 18px;
+  }
+
+  .soc-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contscts {
+    order: -1;
+    margin: -148px 0 0;
+  }
+
+  .footer-mail {
+    color: white;
+    font-style: normal;
+    display: flex;
+    margin: 24px 0 64px;
+    font-size: 19px;
+    letter-spacing: 0.01em;
+  }
+
+  .contscts .tel-list {
+    margin-top: 64px;
+  }
+
+  .addr-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .addr-item {
+    font-size: 19px;
+  }
+
+  .p-agree {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .footer-section {
+    padding: 36px 60px;
+  }
+  .logo-nav {
+    margin-bottom: 32px;
+  }
+
+  .footer-nav {
+    margin-left: 217px;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .contscts {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-mail {
+    margin: 0;
+  }
+  .p-agree {
+    margin-top: 35px;
+  }
+  .soc-list {
+    gap: 30px;
+  }
+
+  .address {
+    display: flex;
+  }
+  .contscts .tel-list {
+    margin-top: 0;
+  }
+  .tel-list {
+    margin: 0 82px 0 87px;
+  }
 }

@@ -19,6 +19,9 @@
   display: inline-flex;
   fill: var(--blue-font);
 }
+.header-logo-tab-svg {
+  display: none;
+}
 .hamburger {
   min-height: 40px;
   min-width: 40px;
@@ -138,6 +141,21 @@
 /* .mobile-menu-activ-link {
   color: var(--ocean);
 } */
+@media screen and (min-width: 768px) {
+  .header-logo-tab-svg {
+    display: block;
+  }
+  .header-logo-mob-svg {
+    display: none;
+  }
+  .header-mob-menu-list {
+    gap: 30px;
+  }
+
+  .header-mob-menu-item-link {
+    font-size: 18px;
+  }
+}
 @media screen and (min-width: 1440px) {
   .menu {
     display: block;

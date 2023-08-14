@@ -1,13 +1,17 @@
 .footer-section {
   padding: 36px 16px 16px 16px;
-  background: var(--blue-font, #0a224a);
+  background: var(--blue-font);
   width: 100%;
 }
 
-/* .footer-container {
-  padding-top: 36px;
-  padding-bottom: 16px;
-} */
+.link {
+  transition: color 300ms ease-in-out 300ms;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--dark-grey);
+}
 
 .logo-soc-container {
   display: flex;
@@ -30,6 +34,12 @@
   height: 16px;
 }
 
+.logo-icon:hover,
+.logo-icon:focus {
+  fill: var(--dark-grey);
+  transition: color 300ms ease-in-out 300ms;
+}
+
 .nav-list {
   display: flex;
   flex-direction: column;
@@ -48,6 +58,12 @@
   width: 28px;
   height: 28px;
   fill: var(--white);
+}
+
+.soc-icon:hover,
+.soc-icon:focus {
+  fill: var(--dark-grey);
+  transition: color 300ms ease-in-out 300ms;
 }
 
 .contscts {
@@ -73,13 +89,18 @@
   color: var(--white);
   font-style: normal;
   letter-spacing: 0.01em;
-  /* line-height: 1.2; */
 }
 
 .footer-mail {
   display: none;
   color: var(--white);
   letter-spacing: 0.01em;
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--dark-grey);
+  transition: color 300ms ease-in-out 300ms;
 }
 
 .p-agree {
@@ -92,6 +113,12 @@
 }
 .agree-link {
   text-decoration-line: underline;
+}
+
+.agree-link:hover,
+.agree-link:focus {
+  color: var(--dark-grey);
+  transition: color 300ms ease-in-out 300ms;
 }
 
 @media screen and (min-width: 768px) {

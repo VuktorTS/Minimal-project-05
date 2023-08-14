@@ -37,6 +37,19 @@
         border: none;
 }
 
+.hero-img{
+    display: none;
+}
+
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution:192dpi),
+ (min-resolution:2dppx){
+.hero-container{
+    background: url(../img/sofa-by-patricia-urquiola-mob@2.jpg);
+    background-size: cover;
+}
+ }
+
 @media screen and (min-width:768px) {
  
 .hero-container{
@@ -52,8 +65,18 @@ background: url(../img/dialma-brown-tab.jpg), url(../img/sofa-by-patricia-urquio
 background-size: 300px, 367px;
 background-position: left bottom, right bottom;
 background-repeat: no-repeat, no-repeat;
-
 margin-bottom: 32px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution:192dpi),
+(min-resolution:2dppx){
+.hero-container-title{
+background: url(../img/dialma-brown-tab@2.jpg), url(../img/sofa-by-patricia-urquiola-tab@2.jpg);
+background-size: 300px, 367px;
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
 }
 
 .hero-title{
@@ -70,6 +93,65 @@ padding: 0;
 
 .hero-subscribe-button{
     padding: 17px 65px;
+}
+
+.hero-img{
+    display: none;
+}
+
+}
+
+@media screen and (min-width:1440px) {
+
+ .hero-container{
+    background: none;
+        display: flex;
+        flex-direction: row;
+        max-width: 1350px;
+
+}   
+
+.hero-container-title{
+width: 1020px; 
+height: 530px;   
+background: url(../img/dialma-brown.jpg), url(../img/sofa-by-patricia-urquiola.jpg);
+background-size: 308px, 644px;
+background-position: left bottom, right bottom;
+background-repeat: no-repeat, no-repeat;
+margin-right: 25px;
+margin-bottom: 0;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution:192dpi),
+(min-resolution:2dppx) {
+ .hero-container-title{
+    background: url(../img/dialma-brown@2.jpg), url(../img/sofa-by-patricia-urquiola@2.jpg);
+    background-size: 308px, 644px;
+        background-position: left bottom, right bottom;
+        background-repeat: no-repeat, no-repeat;
+ }   
+}
+
+.hero-container-descr{
+height: 530px;
+}
+
+.hero-subscribe-button{
+ padding: 13px 72px;   
+}
+
+.hero-subscribe-button:hover{
+    background: #061835;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.hero-img{
+    display: block;
+    width: 312px;
+    height: 337px;
+    margin-bottom: 59px;
 }
 
 }

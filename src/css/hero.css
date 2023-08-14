@@ -1,0 +1,75 @@
+
+.hero-container {
+    padding-top: 140px;
+    padding-bottom: 313px;
+    max-width: 375px;
+    background: url(../img/sofa-by-patricia-urquiola-mob.jpg), lightgray -8.172px -122.895px / 181.99% 146.01% no-repeat;
+        background-repeat: no-repeat;
+}
+
+.hero-title {
+    max-width: 285px;
+    color: var(--blue-font, #0A224A);
+        font-family: Playfair Display;
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+}
+
+.hero-descr {
+    color: var(--blue-font, #0A224A);
+        font-size: 16px;   
+        font-weight: 400;
+        margin-bottom: 28px;
+}
+
+.hero-subscribe-button {
+    width: 224px;
+    padding: 12px 64px;
+    color: var(--white, #FFF);
+        font-size: 16px;
+        font-weight: 400;
+        background: var(--blue-font, #0A224A);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+}
+
+@media screen and (min-width:768px) {
+ 
+.hero-container{
+    background: none;
+    padding-top: 64px;
+    padding-bottom: 100px;
+    max-width: 734px;
+}
+    
+.hero-container-title{
+height: 528px; 
+background: url(../img/dialma-brown-tab.jpg), url(../img/sofa-by-patricia-urquiola-tab.jpg);
+background-size: 300px, 367px;
+background-position: left bottom, right bottom;
+background-repeat: no-repeat, no-repeat;
+
+margin-bottom: 32px;
+}
+
+.hero-title{
+  max-width: 648px;  
+  font-size: 50px;
+padding: 0;
+}
+
+.hero-descr{
+    width: 312px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-subscribe-button{
+    padding: 17px 65px;
+}
+
+}

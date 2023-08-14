@@ -73,6 +73,7 @@ position: relative;
 @media screen and (min-width:768px) {
 
  .about-us-container{
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,12 +100,14 @@ font-size: 32px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 576px;
     gap: 33px;
 }
 
 .aboutus-item-descr{
     font-size: 18px;
 }
+
 
 .img-container{
  max-width: 704px;
@@ -116,15 +119,14 @@ font-size: 32px;
 @media screen and (min-width:1440px) {
 
     .about-us-container{
-    height: 540px;
+        padding: 0 15px;
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
 
 .aboutus-content{
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding: 36px 69px;
     margin-top: 20px;   
 }
 
@@ -135,11 +137,17 @@ line-height: 1.41;
 }
 
 .aboutus-descr{
+    width: 622px;
   font-size: 18px;  
 }
 
-..aboutus-item-descr{
+.aboutus-item-descr{
     font-size: 18px;
+}
+
+.aboutus-list{
+    width: 622px;
+    gap: 56px;
 }
 
 .img-container{

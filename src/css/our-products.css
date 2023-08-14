@@ -16,3 +16,12 @@
 .products-item-img-container {
   margin-bottom: 16px;
 }
+@media screen and (min-width: 768px) {
+  .products-list .products-item:nth-child(2) {
+    display: block;
+  }
+  .products-list {
+    display: flex;
+    gap: 16px;
+  }
+}

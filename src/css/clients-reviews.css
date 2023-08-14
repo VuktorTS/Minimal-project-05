@@ -27,7 +27,8 @@
 }
 
 .reviews-subcontainer-img {
-  background: url(<path-to-image>), lightgray 50% / cove;
+  width: 100%;
+  max-width: 48px;
 }
 
 .reviews-subcontainer-title {
@@ -88,6 +89,14 @@
     margin-bottom: 14px;
   }
 
+.reviews-clients-item{
+  width: calc((100%-14px)/2);
+}
+
+    .reviews-subcontainer-img{
+      min-width: 56px;
+    }
+
   .reviews-subcontainer-title {
     font-size: 20px;
     line-height: 2.25;
@@ -119,6 +128,10 @@
   .reviews-clients-list {
     gap: 23px;
   }
+
+    .reviews-clients-item {
+      width: calc((100%-23px*2)/3);
+    }
 
   .reviews-subcontainer {
     margin-bottom: 16px;

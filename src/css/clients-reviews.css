@@ -28,6 +28,8 @@
 
 .reviews-subcontainer-img {
   background: url(<path-to-image>), lightgray 50% / cove;
+  width: 100%;
+  max-width: 48px;
 }
 
 .reviews-subcontainer-title {
@@ -87,6 +89,10 @@
   .reviews-subcontainer {
     margin-bottom: 14px;
   }
+
+    .reviews-subcontainer-img{
+      max-width: 56px;
+    }
 
   .reviews-subcontainer-title {
     font-size: 20px;

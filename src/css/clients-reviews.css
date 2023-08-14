@@ -27,7 +27,6 @@
 }
 
 .reviews-subcontainer-img {
-  background: url(<path-to-image>), lightgray 50% / cove;
   width: 100%;
   max-width: 48px;
 }
@@ -84,6 +83,11 @@
   .reviews-clients-list {
     display: flex;
     gap: 16px;
+    
+  }
+
+  .reviews-clients-item{
+width: calc((100%-16px)/2);
   }
 
   .reviews-subcontainer {
@@ -124,11 +128,14 @@
 
   .reviews-clients-list {
     gap: 23px;
+  
   }
+
+    .reviews-clients-item{
+width: calc((100%-23px*2)/3);
+    }
 
   .reviews-subcontainer {
     margin-bottom: 16px;
   }
-
-
 }

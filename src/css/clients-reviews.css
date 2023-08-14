@@ -81,16 +81,12 @@
     gap: 16px;
   }
 
-  .reviews-clients-item {
-    width: calc((100%-16px) / 2);
-  }
-
   .reviews-subcontainer {
     margin-bottom: 14px;
   }
 
   .reviews-clients-item {
-    width: calc((100%-14px) / 2);
+    width: calc((100% - 14px) / 2);
   }
 
   .reviews-subcontainer-img {
@@ -127,7 +123,8 @@
   }
 
   .reviews-clients-item {
-    width: calc((100%-23px * 2) / 3);
+    width: calc((100% - 23px * 2) / 3);
+    padding: 32px;
   }
 
   .reviews-subcontainer {

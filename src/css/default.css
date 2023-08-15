@@ -1,19 +1,19 @@
 @font-face {
-  font-display: 'swap';
+  font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-display: 'swap';
+  font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
 }
 @font-face {
-  font-display: 'swap';
+  font-display: swap;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;

@@ -1,5 +1,5 @@
 .footer-section {
-  padding: 36px 16px 16px 16px;
+  padding: 36px 0 16px;
   background: var(--blue-font);
   width: 100%;
 }
@@ -132,7 +132,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-section {
-    padding: 36px 32px;
+    padding: 36px 0 32px;
   }
 
   .logo-nav {
@@ -187,6 +187,10 @@
     margin-top: 64px;
   }
 
+  .address-list {
+    margin-bottom: 0;
+  }
+
   .addr-item:not(:last-child) {
     margin-bottom: 24px;
   }
@@ -206,7 +210,8 @@
   .footer-section {
     padding: 36px 60px;
   }
-  .logo-nav {
+
+  .logo-soc-container {
     margin-bottom: 32px;
   }
 

@@ -29,6 +29,10 @@ body {
   color: var(--blue-font);
   background-color: var(--white);
 }
+html {
+  /* overflow-y: scroll; */
+  scroll-behavior: smooth;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;

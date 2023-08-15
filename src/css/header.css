@@ -173,3 +173,27 @@
     font-size: 18px;
   }
 }
+.go-top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+  color: var(--dark-grey);
+  /* border: 1px solid var(--blue-font); */
+  border-radius: 4px;
+  background-color: var(--grey);
+  padding: 15px 10px;
+  z-index: 999;
+}
+
+.go-top:hover {
+  color: var(--grey);
+  /* border: 1px solid rgba(0, 51, 153, 0.482); */
+  background-color: var(--dark-grey);
+}
+
+.go-top--show {
+  display: block;
+}

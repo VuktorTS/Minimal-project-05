@@ -40,7 +40,7 @@
 }
 
 .menu-container.is-open {
-  transform: translateX(0);
+  transform: translate(-100%);
 }
 .menu-container {
   display: flex;
@@ -53,7 +53,7 @@
   padding: 114px 15px;
   background-color: var(--white);
   z-index: 999;
-  transform: translateX(100%);
+  transform: translate(0);
   transition: transform 250ms ease-in-out;
 }
 

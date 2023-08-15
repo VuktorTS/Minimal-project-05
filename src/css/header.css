@@ -197,3 +197,43 @@
 .go-top--show {
   display: block;
 }
+.header-menu-nav li {
+  display: block;
+  height: 100%;
+  position: relative;
+  transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.header-menu-nav li:after,
+.header-menu-nav li:before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  display: block;
+  height: 1px;
+  transition: all 0.3s ease;
+  margin-top: 2px;
+  transition: all 300ms ease-in;
+}
+
+.header-menu-nav li:after {
+  bottom: 25%;
+  left: 0;
+}
+
+.header-menu-nav li:before {
+  top: 25%;
+  right: 0;
+}
+
+.header-menu-nav li:hover::after {
+  width: 100%;
+  height: 1px;
+  bottom: 4%;
+  background-color: var(--blue-font);
+}
+.header-menu-nav li:hover::before {
+  width: 100%;
+  height: 1px;
+  top: 4%;
+  background-color: var(--blue-font);
+}

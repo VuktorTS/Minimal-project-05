@@ -5,9 +5,15 @@
   --light-blue: #f7faff;
   --white: #ffffff;
 } */
-
+.stub-for-scroll {
+  width: 17px;
+  height: 88px;
+  background-color: var(--light-blue);
+  display: none;
+}
 .header-section {
   background-color: var(--light-blue);
+  display: flex;
 }
 .header-section .container {
   display: flex;

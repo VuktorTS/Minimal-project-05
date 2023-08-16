@@ -66,9 +66,9 @@
   .price {
     padding: 100px 0;
   }
-  .price-container {
+  /* .price-container {
     padding: 0 32px;
-  }
+  } */
 
   .price-item::before {
     max-width: 704px;

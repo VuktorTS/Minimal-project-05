@@ -1,177 +1,175 @@
-.hero .container{
-    padding: 0;
+.hero .container {
+  padding: 0;
 }
 
 .hero-container {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 140px;
-    padding-bottom: 313px;
-    background: url(../img/sofa-by-patricia-urquiola-mob.jpg), lightgray -8.172px -122.895px / 181.99% 146.01% no-repeat;
-        background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 140px;
+  padding-bottom: 313px;
+  background: url(../img/sofa-by-patricia-urquiola-mob.jpg),
+    lightgray -8.172px -122.895px / 181.99% 146.01% no-repeat;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
-    max-width: 285px;
-    color: var(--blue-font, #0A224A);
-        font-family: Playfair Display;
-        font-size: 28px;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 14px;
+  max-width: 285px;
+  color: var(--blue-font, #0a224a);
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 14px;
 }
 
 .hero-descr {
-    color: var(--blue-font, #0A224A);
-        font-size: 16px;   
-        font-weight: 400;
-        margin-bottom: 28px;
+  color: var(--blue-font, #0a224a);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 28px;
 }
 
 .hero-subscribe-button {
-    width: 224px;
-    padding: 12px 64px;
-    color: var(--white, #FFF);
-        font-size: 16px;
-        font-weight: 400;
-        background: var(--blue-font, #0A224A);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
+  width: 224px;
+  padding: 12px 64px;
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 400;
+  background: var(--blue-font, #0a224a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
 }
 
-.hero-img{
-    display: none;
-}
-
- @media (min-device-pixel-ratio: 2),
- (min-resolution:192dpi),
- (min-resolution:2dppx){
-.hero-container{
-    background: url(../img/sofa-by-patricia-urquiola-mob@2.jpg);
-    background-size: cover;
-}
- }
-
-@media screen and (min-width:768px) {
- 
- .hero .container{
-    padding: 0 15px;
- }   
-
-.hero{
-    padding-top: 64px;
-        padding-bottom: 100px;
-        /* padding-left: 15px;
-        padding-right: 15px; */
-}
-
-
-    .hero-container{
-        padding: 0;
-    background: none;
-    max-width: 734px;
-}
-    
-.hero-container-title{
-height: 528px; 
-background: url(../img/dialma-brown-tab.jpg), url(../img/sofa-by-patricia-urquiola-tab.jpg);
-background-size: 308px, 367px;
-background-position: left bottom, right bottom;
-background-repeat: no-repeat, no-repeat;
-margin-bottom: 32px;
+.hero-img {
+  display: none;
 }
 
 @media (min-device-pixel-ratio: 2),
-(min-resolution:192dpi),
-(min-resolution:2dppx){
-.hero-container-title{
-background: url(../img/dialma-brown-tab@2.jpg), url(../img/sofa-by-patricia-urquiola-tab@2.jpg);
-background-size: 308px, 367px;
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-container {
+    background: url(../img/sofa-by-patricia-urquiola-mob-2x.jpg);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero .container {
+    padding: 0 15px;
+  }
+
+  .hero {
+    padding-top: 64px;
+    padding-bottom: 100px;
+    /* padding-left: 15px;
+        padding-right: 15px; */
+  }
+
+  .hero-container {
+    padding: 0;
+    background: none;
+    max-width: 734px;
+  }
+
+  .hero-container-title {
+    height: 528px;
+    background: url(../img/dialma-brown-tab.jpg),
+      url(../img/sofa-by-patricia-urquiola-tab.jpg);
+    background-size: 308px, 367px;
     background-position: left bottom, right bottom;
     background-repeat: no-repeat, no-repeat;
-}
-}
+    margin-bottom: 32px;
+  }
 
-.hero-title{
-  max-width: 648px;  
-  font-size: 50px;
-padding: 0;
-}
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container-title {
+      background: url(../img/dialma-brown-tab-2x.jpg),
+        url(../img/sofa-by-patricia-urquiola-tab-2x.jpg);
+      background-size: 308px, 367px;
+      background-position: left bottom, right bottom;
+      background-repeat: no-repeat, no-repeat;
+    }
+  }
 
-.hero-descr{
+  .hero-title {
+    max-width: 648px;
+    font-size: 50px;
+    padding: 0;
+  }
+
+  .hero-descr {
     width: 312px;
     font-size: 18px;
     margin-bottom: 30px;
-}
+  }
 
-.hero-subscribe-button{
+  .hero-subscribe-button {
     padding: 17px 65px;
-}
+  }
 
-.hero-img{
+  .hero-img {
     display: none;
+  }
 }
 
-}
+@media screen and (min-width: 1440px) {
+  .hero .container {
+    padding: 0 15px;
+  }
 
-@media screen and (min-width:1440px) {
-
-    .hero .container {
-            padding: 0 15px;
-        }
-
- .hero-container{
+  .hero-container {
     /* padding: 0 15px; */
     background: none;
-        display: flex;
-        flex-direction: row;
-        max-width: 1350px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1350px;
+  }
 
-}   
-
-.hero-container-title{
-width: 975px; 
-height: 530px;   
-background: url(../img/dialma-brown.jpg), url(../img/sofa-by-patricia-urquiola.jpg);
-background-size: 308px, 644px;
-background-position: left bottom, right bottom;
-background-repeat: no-repeat, no-repeat;
-margin-right: 25px;
-margin-bottom: 0;
-}
-
-@media (min-device-pixel-ratio: 2),
-(min-resolution:192dpi),
-(min-resolution:2dppx) {
- .hero-container-title{
-    background: url(../img/dialma-brown@2.jpg), url(../img/sofa-by-patricia-urquiola@2.jpg);
+  .hero-container-title {
+    width: 975px;
+    height: 530px;
+    background: url(../img/dialma-brown.jpg),
+      url(../img/sofa-by-patricia-urquiola.jpg);
     background-size: 308px, 644px;
-        background-position: left bottom, right bottom;
-        background-repeat: no-repeat, no-repeat;
- }   
-}
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
 
-.hero-container-descr{
-height: 530px;
-}
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container-title {
+      background: url(../img/dialma-brown-2x.jpg),
+        url(../img/sofa-by-patricia-urquiola-2x.jpg);
+      background-size: 308px, 644px;
+      background-position: left bottom, right bottom;
+      background-repeat: no-repeat, no-repeat;
+    }
+  }
 
-.hero-subscribe-button{
- padding: 13px 72px;   
-}
+  .hero-container-descr {
+    height: 530px;
+  }
 
-.hero-subscribe-button:hover{
+  .hero-subscribe-button {
+    padding: 13px 72px;
+  }
+
+  .hero-subscribe-button:hover {
     background: #061835;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+  }
 
-
-.hero-img{
+  .hero-img {
     display: block;
     width: 312px;
     height: 337px;
     margin-bottom: 59px;
-}
-
+  }
 }

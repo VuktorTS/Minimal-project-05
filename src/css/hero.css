@@ -40,7 +40,17 @@
   align-items: center;
   justify-content: center;
   border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.hero-subscribe-button:hover, .hero-subscribe-button:focus{
+border: none;
+    background-color: #061835;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 
 .hero-img {
   display: none;
@@ -161,12 +171,7 @@
     padding: 13px 72px;
   }
 
-  .hero-subscribe-button:hover {
-    background: #061835;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .hero-img {
+   .hero-img {
     display: block;
     width: 312px;
     height: 337px;

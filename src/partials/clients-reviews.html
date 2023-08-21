@@ -4,13 +4,31 @@
     <ul class="reviews-clients-list">
       <li class="reviews-clients-item card">
         <div class="reviews-subcontainer">
-          <img
-            src="./img/Alexandra_Dream.png"
-            alt="Alexandra Dream"
-            width="56"
-            height="56"
-            class="reviews-subcontainer-img"
-          />
+          <div class="reviews-subcontainer-img">
+            <picture
+              ><source
+                srcset="
+                  ./img/Aleksandra_Dream-tab.png    1x,
+                  ./img/Aleksandra_Dream-tab_2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/Aleksandra_Dream-mob.png    1x,
+                  ./img/Aleksandra_Dream-mob_2x.png 2x
+                "
+                media="(min-width: 320px)"
+              />
+              <img
+                src="./img/Alexandra_Dream.png"
+                alt="Alexandra Dream"
+                width="56"
+                height="56"
+              />
+            </picture>
+          </div>
+
           <div class="reviews-subcontainer-name-date">
             <h3 class="reviews-subcontainer-title">Alexandra dream</h3>
             <p class="reviews-subcontainer-text">1 week ago</p>
@@ -25,13 +43,24 @@
       </li>
       <li class="reviews-clients-item reviews-tab-version card">
         <div class="reviews-subcontainer">
-          <img
-            src="./img/James_Williams.png"
-            alt="James Williams"
-            width="56"
-            height="56"
-            class="reviews-subcontainer-img"
-          />
+          <div class="reviews-subcontainer-img">
+            <picture
+              ><source
+                srcset="
+                  ./img/James_Williams.png    1x,
+                  ./img/James_Williams-2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <img
+                src="./img/James_Williams.png"
+                alt="James Williams"
+                width="56"
+                height="56"
+              />
+            </picture>
+          </div>
+
           <div class="reviews-subcontainer-name-date">
             <h3 class="reviews-subcontainer-title">James Williams</h3>
             <p class="reviews-subcontainer-text">A week ago</p>
@@ -46,13 +75,21 @@
       </li>
       <li class="reviews-clients-item reviews-desktop-version card">
         <div class="reviews-subcontainer">
-          <img
-            src="./img/Emily_Watson.png"
-            alt="Emily Watson"
-            width="56"
-            height="56"
-            class="reviews-subcontainer-img"
-          />
+          <div class="reviews-subcontainer-img">
+            <picture
+              ><source
+                srcset="./img/Emily_Watson.png 1x, ./img/Emily_Watson-2x.png 2x"
+                media="(min-width: 768px)"
+              />
+              <img
+                src="./img/Emily_Watson.png"
+                alt="Emily Watson"
+                width="56"
+                height="56"
+              />
+            </picture>
+          </div>
+
           <div class="reviews-subcontainer-name-date">
             <h3 class="reviews-subcontainer-title">Emily Watson</h3>
             <p class="reviews-subcontainer-text">3 week ago</p>
